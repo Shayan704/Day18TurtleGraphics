@@ -16,7 +16,7 @@ tim.width(1)
 def draw_spirograph(size_of_gap):
     for _ in range (int(360/size_of_gap)):
         tim.color(random_colour())
-        tim.circle(100)
+        tim.circle(150)
         tim.setheading(tim.heading()+size_of_gap)
 
 
